@@ -1,0 +1,72 @@
+[
+  {
+    "stage": "INIT",
+    "timestamp": "2026-05-13T10:54:09.437143+00:00",
+    "message": "Pipeline initialized"
+  },
+  {
+    "stage": "SOURCES_LOADED",
+    "timestamp": "2026-05-13T10:54:16.387684+00:00",
+    "message": "Loaded 3 sources"
+  },
+  {
+    "stage": "CHANGELOGS_FETCHED",
+    "timestamp": "2026-05-13T10:54:23.183785+00:00",
+    "message": "Fetched 3 sources"
+  },
+  {
+    "stage": "ENTRIES_PARSED",
+    "timestamp": "2026-05-13T10:54:25.409274+00:00",
+    "message": "Parsed 4234 total entries"
+  },
+  {
+    "stage": "RECENT_ENTRIES_FILTERED",
+    "timestamp": "2026-05-13T10:54:25.459748+00:00",
+    "message": "Filtered to 330 recent entries (90-day window)"
+  },
+  {
+    "stage": "CHANGES_CLASSIFIED",
+    "timestamp": "2026-05-13T11:00:32.508256+00:00",
+    "message": "Classified 330 entries"
+  },
+  {
+    "stage": "HIGH_RISK_STRIPE_CHANGES_SELECTED",
+    "timestamp": "2026-05-13T11:00:32.678107+00:00",
+    "message": "Selected 34 high-risk Stripe entries"
+  },
+  {
+    "stage": "CODEBASE_IMPACT_ANALYSED",
+    "timestamp": "2026-05-13T11:00:38.685916+00:00",
+    "message": "Analyzed impact: 0 functions affected"
+  },
+  {
+    "stage": "MIGRATION_GUIDES_GENERATED",
+    "timestamp": "2026-05-13T11:00:38.698216+00:00",
+    "message": "Generated 0 migration guides"
+  },
+  {
+    "stage": "MIGRATION_CODE_VALIDATED",
+    "timestamp": "2026-05-13T11:00:38.707656+00:00",
+    "message": "Validated: 0/0 valid"
+  },
+  {
+    "stage": "IMPACT_REPORT_WRITTEN",
+    "timestamp": "2026-05-13T11:00:38.716927+00:00",
+    "message": "Report saved to C:\\Users\\akkap\\Desktop\\Deriv\\impact_report.md"
+  },
+  {
+    "stage": "OPTIONAL_OUTPUTS_GENERATED",
+    "timestamp": "2026-05-13T11:00:45.574615+00:00",
+    "message": "Optional outputs generated"
+  },
+  {
+    "stage": "VALIDATION_COMPLETE",
+    "timestamp": "2026-05-13T11:00:45.577384+00:00",
+    "message": "Internal validation passed"
+  },
+  {
+    "stage": "RESULTS_FINALISED",
+    "timestamp": "2026-05-13T11:00:45.577551+00:00",
+    "message": "Pipeline complete"
+  }
+]
