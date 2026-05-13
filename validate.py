@@ -44,14 +44,13 @@ class ValidationResult:
         self.results: list[dict] = []
 
     def check(self, name: str, passed: bool, detail: str = "") -> bool:
-        emoji = "✓" if passed else "✗"
-        status = "PASS" if passed else "FAIL"
+        emoji = "PASS" if passed else "FAIL"
         self.results.append({
             "check": name,
             "passed": passed,
             "detail": detail,
         })
-        print(f"  {emoji} [{status}] {name}" + (f" — {detail}" if detail else ""))
+        print(f"  [{emoji}] {name}" + (f" - {detail}" if detail else ""))
         return passed
 
     @property
@@ -111,7 +110,7 @@ def validate(project_root: Path) -> bool:
     for artifact in optional_artifacts:
         path = project_root / artifact
         exists = path.exists()
-        print(f"    {'✓' if exists else '○'} {artifact} ({'present' if exists else 'not generated'})")
+        print(f"    {'[Y]' if exists else '[N]'} {artifact} ({'present' if exists else 'not generated'})")
 
     # ── 2. JSON Files Valid ───────────────────────────────────
     print("\n2. JSON File Validity:")
